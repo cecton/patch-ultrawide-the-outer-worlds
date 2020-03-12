@@ -8,7 +8,7 @@ static BACKUP: &str = "IndianaEpicGameStore-Win64-Shipping.bak";
 #[rustfmt::skip]
 static REPLACEMENTS: &[Replacement] = &[
     Replacement {
-        expected_offset: 0x1c4ead8,
+        expected_offset: 0x1c5c978,
         opcodes: &[
             &[0x83, 0xe0, 0x01],
             &[0x31, 0x41, 0x30],
@@ -16,7 +16,7 @@ static REPLACEMENTS: &[Replacement] = &[
         with: &[], // NOTE: no replacement, just skip the first occurrence
     },
     Replacement {
-        expected_offset: 0x1c4fb38,
+        expected_offset: 0x1c5d9d8,
         opcodes: &[
             &[0x83, 0xe0, 0x01],
             &[0x31, 0x41, 0x30],
@@ -26,7 +26,7 @@ static REPLACEMENTS: &[Replacement] = &[
         ],
     },
     Replacement {
-        expected_offset: 0x2851f3c,
+        expected_offset: 0x2861824,
         opcodes: &[
             &[0x35, 0xfa, 0x0e, 0x3c, 0xa1],
         ],
