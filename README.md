@@ -11,8 +11,11 @@ What does it do?
     horizontal).
  *  It removes the pillarboxing from the cutscenes and dialog screens.
 
-Installation
-------------
+Usage
+-----
+
+1.  Go the the "Releases" tab on the GitHub page and download the latest
+    executable or the source code if you want to compile the program yourself.
 
 1.  Copy the executable in the game directory under:
 
